@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/TheChanceSeason1/TheThirdTask/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.19583333333333333" />
+        <entry key="..\:/TheChanceSeason1/TheThirdTask/app/src/main/res/drawable/bg_img.xml" value="0.19583333333333333" />
+        <entry key="..\:/TheChanceSeason1/TheThirdTask/app/src/main/res/drawable/cursor.xml" value="0.19166666666666668" />
+        <entry key="..\:/TheChanceSeason1/TheThirdTask/app/src/main/res/drawable/ic__23_fill0_wght400_grad0_opsz24.xml" value="0.1796875" />
+        <entry key="..\:/TheChanceSeason1/TheThirdTask/app/src/main/res/drawable/ic__23_fill0_wght400_grad0_opsz48.xml" value="0.19583333333333333" />
+        <entry key="..\:/TheChanceSeason1/TheThirdTask/app/src/main/res/drawable/ic__398748.xml" value="0.16770833333333332" />
+        <entry key="..\:/TheChanceSeason1/TheThirdTask/app/src/main/res/drawable/ic_baseline_access_time_24.xml" value="0.15885416666666666" />
+        <entry key="..\:/TheChanceSeason1/TheThirdTask/app/src/main/res/drawable/ic_baseline_attach_money_24.xml" value="0.16458333333333333" />
+        <entry key="..\:/TheChanceSeason1/TheThirdTask/app/src/main/res/drawable/ic_baseline_calculate_24.xml" value="0.19282051282051282" />
+        <entry key="..\:/TheChanceSeason1/TheThirdTask/app/src/main/res/drawable/ic_baseline_date_range_24.xml" value="0.16666666666666666" />
+        <entry key="..\:/TheChanceSeason1/TheThirdTask/app/src/main/res/drawable/ic_baseline_height_24.xml" value="0.19583333333333333" />
+        <entry key="..\:/TheChanceSeason1/TheThirdTask/app/src/main/res/drawable/ic_baseline_people_outline_24.xml" value="0.16458333333333333" />
+        <entry key="..\:/TheChanceSeason1/TheThirdTask/app/src/main/res/drawable/ic_baseline_south_24.xml" value="0.19583333333333333" />
+        <entry key="..\:/TheChanceSeason1/TheThirdTask/app/src/main/res/drawable/ic_calculate_fill0_wght400_grad0_opsz48.xml" value="0.19583333333333333" />
+        <entry key="..\:/TheChanceSeason1/TheThirdTask/app/src/main/res/drawable/ic_calendar_month_fill0_wght400_grad0_opsz48.xml" value="0.19583333333333333" />
+        <entry key="..\:/TheChanceSeason1/TheThirdTask/app/src/main/res/drawable/ic_celsius_svgrepo_com.xml" value="0.16666666666666666" />
+        <entry key="..\:/TheChanceSeason1/TheThirdTask/app/src/main/res/drawable/ic_fahrenheit_svgrepo_com.xml" value="0.16666666666666666" />
+        <entry key="..\:/TheChanceSeason1/TheThirdTask/app/src/main/res/drawable/ic_height_fill0_wght400_grad0_opsz48.xml" value="0.165625" />
+        <entry key="..\:/TheChanceSeason1/TheThirdTask/app/src/main/res/drawable/ic_launcher_background.xml" value="0.19282051282051282" />
+        <entry key="..\:/TheChanceSeason1/TheThirdTask/app/src/main/res/drawable/ic_payments_fill0_wght400_grad0_opsz48.xml" value="0.19583333333333333" />
+        <entry key="..\:/TheChanceSeason1/TheThirdTask/app/src/main/res/drawable/ic_percent_fill0_wght400_grad0_24.xml" value="0.19282051282051282" />
+        <entry key="..\:/TheChanceSeason1/TheThirdTask/app/src/main/res/drawable/ic_percent_fill0_wght400_grad0_opsz48.xml" value="0.19583333333333333" />
+        <entry key="..\:/TheChanceSeason1/TheThirdTask/app/src/main/res/drawable/ic_pin_fill0_wght400_grad0_opsz48.xml" value="0.17604166666666668" />
+        <entry key="..\:/TheChanceSeason1/TheThirdTask/app/src/main/res/drawable/ic_sync_alt_fill0_wght400_grad0_opsz48.xml" value="0.16666666666666666" />
+        <entry key="..\:/TheChanceSeason1/TheThirdTask/app/src/main/res/drawable/ic_temp.xml" value="0.16666666666666666" />
+        <entry key="..\:/TheChanceSeason1/TheThirdTask/app/src/main/res/drawable/ic_thermometer_fill0_wght400_grad0.xml" value="0.1796875" />
+        <entry key="..\:/TheChanceSeason1/TheThirdTask/app/src/main/res/drawable/ic_thermometer_fill0_wght400_grad0_opsz48.xml" value="0.1296875" />
+        <entry key="..\:/TheChanceSeason1/TheThirdTask/app/src/main/res/drawable/ic_weight_fill0_wght400_grad0.xml" value="0.16979166666666667" />
+        <entry key="..\:/TheChanceSeason1/TheThirdTask/app/src/main/res/drawable/ic_weight_fill0_wght400_grad0_opsz48.xml" value="0.19583333333333333" />
+        <entry key="..\:/TheChanceSeason1/TheThirdTask/app/src/main/res/drawable/pay.xml" value="0.15462962962962962" />
+        <entry key="..\:/TheChanceSeason1/TheThirdTask/app/src/main/res/drawable/tv_bg.xml" value="0.1796875" />
+        <entry key="..\:/TheChanceSeason1/TheThirdTask/app/src/main/res/layout/activity_binary_decimal.xml" value="0.4466666666666667" />
+        <entry key="..\:/TheChanceSeason1/TheThirdTask/app/src/main/res/layout/activity_bmi_calculate.xml" value="0.16666666666666666" />
+        <entry key="..\:/TheChanceSeason1/TheThirdTask/app/src/main/res/layout/activity_date.xml" value="0.22" />
+        <entry key="..\:/TheChanceSeason1/TheThirdTask/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/TheChanceSeason1/TheThirdTask/app/src/main/res/layout/activity_number_to_roman.xml" value="0.22" />
+        <entry key="..\:/TheChanceSeason1/TheThirdTask/app/src/main/res/layout/activity_percentage.xml" value="0.22" />
+        <entry key="..\:/TheChanceSeason1/TheThirdTask/app/src/main/res/layout/activity_splash.xml" value="0.17552083333333332" />
+        <entry key="..\:/TheChanceSeason1/TheThirdTask/app/src/main/res/layout/activity_temp.xml" value="0.16666666666666666" />
+        <entry key="..\:/TheChanceSeason1/TheThirdTask/app/src/main/res/layout/activity_time.xml" value="0.16666666666666666" />
+        <entry key="..\:/TheChanceSeason1/TheThirdTask/app/src/main/res/layout/activity_tip.xml" value="0.16666666666666666" />
+        <entry key="..\:/TheChanceSeason1/TheThirdTask/app/src/main/res/layout/activity_weight.xml" value="0.3333333333333333" />
+        <entry key="..\:/TheChanceSeason1/TheThirdTask/app/src/main/res/layout/fragment_b_m_i.xml" value="0.1796875" />
+        <entry key="..\:/TheChanceSeason1/TheThirdTask/app/src/main/res/layout/fragment_bmi.xml" value="0.1796875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.22" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

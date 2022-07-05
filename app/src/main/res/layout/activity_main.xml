@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f3f3f3"
+    tools:context=".MainActivity">
+
+
+    <ImageButton
+        android:id="@+id/btnWeight"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:background="@drawable/bg_img"
+        android:src="@drawable/ic_weight_fill0_wght400_grad0"
+        app:layout_constraintBottom_toBottomOf="@+id/romanBtnMain"
+        app:layout_constraintEnd_toEndOf="@+id/age"
+        app:layout_constraintStart_toStartOf="@+id/age" />
+
+
+    <TextView
+        android:id="@+id/weightTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Weight Converter"
+        android:textColor="@color/blk"
+        app:layout_constraintBottom_toTopOf="@+id/age"
+        app:layout_constraintEnd_toEndOf="@+id/btnWeight"
+        app:layout_constraintStart_toStartOf="@+id/btnWeight"
+        android:layout_marginBottom="16dp"/>
+
+    <ImageButton
+        android:id="@+id/tip"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_img"
+        android:src="@drawable/pay"
+        app:layout_constraintEnd_toEndOf="@+id/temp"
+        app:layout_constraintStart_toStartOf="@+id/temp"
+        app:layout_constraintTop_toBottomOf="@+id/temp_str" />
+
+    <ImageButton
+        android:id="@+id/romanBtnMain"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:background="@drawable/bg_img"
+        android:src="@drawable/ic_pin_fill0_wght400_grad0_opsz48"
+        app:layout_constraintEnd_toEndOf="@+id/b_m_i"
+        app:layout_constraintStart_toStartOf="@+id/b_m_i"
+        app:layout_constraintTop_toTopOf="@+id/time" />
+
+    <ImageButton
+        android:id="@+id/b_m_i"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:background="@drawable/bg_img"
+        android:src="@drawable/ic_calculate_fill0_wght400_grad0_opsz48"
+        app:layout_constraintEnd_toStartOf="@+id/age"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/temp"
+        app:layout_constraintTop_toTopOf="@+id/temp"/>
+
+    <ImageButton
+        android:id="@+id/time"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/bg_img"
+        android:src="@drawable/ic_baseline_access_time_24"
+        app:layout_constraintBottom_toTopOf="@+id/timeStr"
+        app:layout_constraintEnd_toEndOf="@+id/temp"
+        app:layout_constraintStart_toStartOf="@+id/temp" />
+
+    <ImageButton
+        android:id="@+id/deciamlBtn"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:background="@drawable/bg_img"
+        android:src="@drawable/ic__23_fill0_wght400_grad0_opsz48"
+        app:layout_constraintEnd_toEndOf="@+id/age"
+        app:layout_constraintStart_toStartOf="@+id/age"
+        app:layout_constraintTop_toTopOf="@+id/percentage" />
+
+    <ImageButton
+        android:id="@+id/percentage"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:background="@drawable/bg_img"
+        android:src="@drawable/ic_sync_alt_fill0_wght400_grad0_opsz48"
+        app:layout_constraintEnd_toEndOf="@+id/b_m_i"
+        app:layout_constraintStart_toStartOf="@+id/b_m_i"
+        app:layout_constraintTop_toBottomOf="@+id/bmi_str"
+        android:layout_marginTop="16dp"/>
+
+    <ImageButton
+        android:id="@+id/age"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:background="@drawable/bg_img"
+        android:src="@drawable/ic_calendar_month_fill0_wght400_grad0_opsz48"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/b_m_i"
+        app:layout_constraintTop_toTopOf="@+id/temp" />
+
+
+    <ImageButton
+        android:id="@+id/temp"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:background="@drawable/bg_img"
+        android:src="@drawable/ic_thermometer_fill0_wght400_grad0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/b_m_i"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/timeStr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/blk"
+        app:layout_constraintBottom_toTopOf="@+id/temp"
+        app:layout_constraintEnd_toEndOf="@+id/temp"
+        app:layout_constraintStart_toStartOf="@+id/temp"/>
+
+    <TextView
+        android:id="@+id/romanStr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Roman Converter"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/blk"
+        app:layout_constraintBottom_toTopOf="@+id/b_m_i"
+        app:layout_constraintEnd_toEndOf="@+id/romanBtnMain"
+        app:layout_constraintStart_toStartOf="@+id/romanBtnMain"/>
+    <TextView
+        android:id="@+id/temp_str"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Temperature"
+        android:textColor="@color/blk"
+        app:layout_constraintEnd_toEndOf="@+id/temp"
+        app:layout_constraintStart_toStartOf="@+id/temp"
+        app:layout_constraintTop_toBottomOf="@id/temp" />
+
+    <TextView
+        android:id="@+id/bmi_str"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/bmi"
+        android:textColor="@color/blk"
+        app:layout_constraintEnd_toEndOf="@+id/b_m_i"
+        app:layout_constraintStart_toStartOf="@+id/b_m_i"
+        app:layout_constraintTop_toBottomOf="@id/b_m_i" />
+
+    <TextView
+        android:id="@+id/date_converter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/date_converter"
+        android:textColor="@color/blk"
+        app:layout_constraintEnd_toEndOf="@+id/age"
+        app:layout_constraintStart_toStartOf="@+id/age"
+        app:layout_constraintTop_toBottomOf="@id/age" />
+
+    <TextView
+        android:id="@+id/tip_str"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/tip"
+        android:textColor="@color/blk"
+        app:layout_constraintEnd_toEndOf="@+id/tip"
+        app:layout_constraintStart_toStartOf="@+id/tip"
+        app:layout_constraintTop_toBottomOf="@id/tip" />
+
+    <TextView
+        android:id="@+id/percentage_str"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Currency"
+        android:textColor="@color/blk"
+        app:layout_constraintEnd_toEndOf="@+id/percentage"
+        app:layout_constraintStart_toStartOf="@+id/percentage"
+        app:layout_constraintTop_toBottomOf="@id/percentage" />
+
+    <TextView
+        android:id="@+id/deciamlTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Decimal to Binary"
+        android:textColor="@color/blk"
+        app:layout_constraintEnd_toEndOf="@+id/deciamlBtn"
+        app:layout_constraintStart_toStartOf="@+id/deciamlBtn"
+        app:layout_constraintTop_toBottomOf="@+id/deciamlBtn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

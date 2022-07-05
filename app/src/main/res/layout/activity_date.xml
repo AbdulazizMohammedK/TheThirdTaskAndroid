@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f3f3f3"
+    tools:context=".DateActivity">
+
+    <ImageView
+        android:id="@+id/imgDate"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/ic_baseline_date_range_24"/>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/gergorianDate"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        android:hint="Enter the Year and select type to converted"
+        android:textColorHint="@color/color_icon"
+        app:boxStrokeColor="@color/color_icon"
+        app:counterOverflowTextColor="@color/color_icon"
+        app:hintTextColor="@color/color_icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imgDate">
+
+        <!--this is the actual edit text which takes the input-->
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etgergorianDateText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_baseline_date_range_24"
+            android:drawablePadding="8dp"
+            android:inputType="number" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+<RadioGroup
+    android:id="@+id/grpDate"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:layout_constraintStart_toStartOf="@id/gergorianDate"
+    app:layout_constraintTop_toBottomOf="@id/gergorianDate"
+    android:layout_marginTop="16dp"
+    android:orientation="horizontal"
+    >
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hijri"
+        android:textSize="16sp"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="@string/gregorian"
+            android:layout_marginStart="8dp"/>
+</RadioGroup>
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/color_btn"
+        android:textSize="32sp"
+        app:layout_constraintEnd_toEndOf="@+id/gergorianDate"
+        app:layout_constraintStart_toStartOf="@id/grpDate"
+        app:layout_constraintTop_toBottomOf="@id/grpDate" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnConvertDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/convert"
+        app:layout_constraintStart_toStartOf="@id/grpDate"
+        app:layout_constraintTop_toBottomOf="@id/tvDate"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16sp"
+        android:textSize="16sp"
+        android:background="@color/color_secod"
+        android:textColor="@color/white"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

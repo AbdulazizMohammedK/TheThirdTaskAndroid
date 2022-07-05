@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f3f3f3"
+    tools:context=".TipActivity">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/etBill"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:drawablePadding="8dp"
+        android:hint="@string/bill_cost"
+        android:inputType="number"
+        android:textColorHint="@color/color_icon"
+        app:boxStrokeColor="@color/color_icon"
+        app:counterOverflowTextColor="@color/color_icon"
+        app:hintTextColor="@color/color_icon"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="64dp">
+
+        <!--this is the actual edit text which takes the input-->
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_text_bill"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_baseline_attach_money_24"
+            android:inputType="number" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:id="@+id/etPeople"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        app:hintTextColor="@color/color_icon"
+        android:textColorHint="@color/color_icon"
+        app:layout_constraintStart_toStartOf="@id/etBill"
+        app:layout_constraintEnd_toEndOf="@id/etBill"
+        app:layout_constraintTop_toBottomOf="@id/etBill"
+        android:hint="@string/number_people"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        app:boxStrokeColor="@color/color_icon"
+        app:counterOverflowTextColor="@color/color_icon">
+
+        <!--this is the actual edit text which takes the input-->
+        <com.google.android.material.textfield.TextInputEditText
+            android:drawableStart="@drawable/ic_baseline_people_outline_24"
+            android:inputType="number"
+            android:id="@+id/etPeopleNumber"
+            android:drawablePadding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:id="@+id/tipPercentage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/etBill"
+        app:layout_constraintEnd_toEndOf="@id/etBill"
+        app:layout_constraintTop_toBottomOf="@id/etPeople"
+        android:hint="@string/tip_percentage"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        app:hintTextColor="@color/color_icon"
+        app:boxStrokeColor="@color/color_icon"
+        app:counterOverflowTextColor="@color/color_icon"
+        android:textColorHint="@color/color_icon">
+
+        <!--this is the actual edit text which takes the input-->
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etPercent"
+            android:drawableStart="@drawable/ic_payments_fill0_wght400_grad0_opsz48"
+            android:inputType="number"
+            android:drawablePadding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/ic_percent_fill0_wght400_grad0_24"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/result"
+        android:textColor="@color/blk"
+        android:textSize="24sp"
+        app:layout_constraintTop_toBottomOf="@id/tipPercentage"
+        app:layout_constraintStart_toStartOf="@id/etPeople"/>
+
+    <TextView android:id="@+id/tipAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tip_amount"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/result"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        android:textSize="24sp"
+        android:textColor="@color/color_icon"
+        app:drawableStartCompat="@drawable/ic_payments_fill0_wght400_grad0_opsz48"
+        android:drawablePadding="8dp"/>
+    <TextView
+        android:id="@+id/tipCost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="16dp"
+        android:textColor="#000"
+        app:layout_constraintTop_toTopOf="@id/tipAmount"
+        android:textSize="24sp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/calTip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/calculate"
+        android:background="@color/color_secod"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/costPerPerson"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/costPerPerson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cost_person"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="@id/tipAmount"
+        app:layout_constraintTop_toBottomOf="@id/tipAmount"
+        android:textSize="24sp"
+        android:drawablePadding="8dp"
+        android:textColor="@color/color_icon"
+        app:drawableStartCompat="@drawable/ic_baseline_people_outline_24" />
+
+
+    <TextView
+        android:id="@+id/tvCostPerPerson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintTop_toTopOf="@id/costPerPerson"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="@color/blk"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

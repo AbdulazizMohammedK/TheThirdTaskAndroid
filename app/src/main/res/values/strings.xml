@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Converter App</string>
+    <string name="roman_converter">Roman Converter</string>
+    <string name="bmi">BMI</string>
+    <string name="date_converter">Date Converter</string>
+    <string name="tip">Tip</string>
+    <string name="percentage">Percentage</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="input_bmi">Input</string>
+    <string name="enter_your_height_here">Enter Your Height In CM</string>
+    <string name="enter_your_weight_in_kg">Enter Your Weight In KG</string>
+    <string name="number_people">Enter Number Of People</string>
+    <string name="bill_cost">Enter Cost Of Bill</string>
+    <string name="result">Result</string>
+    <string name="your_body_mass_index">Your Body Mass Index :</string>
+    <string name="_24"></string>
+    <string name="calculate">Calculate</string>
+    <string name="your_weight_is_normal"></string>
+    <string name="tip_percentage">Tip Percentage</string>
+    <string name="five">5 %</string>
+    <string name="cost_person">Cost / Person</string>
+    <string name="enter_date_in_hijri">Enter The Date In Hijri (Year)</string>
+    <string name="hijri">Hijri</string>
+    <string name="gregorian">Gregorian</string>
+    <string name="convert">Convert</string>
+    <string name="enter_value_here">Enter Value Here</string>
+    <string name="tip_amount">Tip Amount</string>
+</resources>
